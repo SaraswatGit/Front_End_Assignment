@@ -1,6 +1,6 @@
 ## Techstack :
 
-1. Angular 14
+1. Angular 
 2. CSS framework - Tailwind
 
 ## Description of the Project
@@ -25,11 +25,7 @@ The Application is made up of 7 components .
 
 ```
 
-## Running locally
 
-1. Create a environment.testing.ts file in the environments directory, And export your Github personal access token from inside of it.
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 
 ## Development server
 
