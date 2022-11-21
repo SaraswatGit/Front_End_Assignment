@@ -18,12 +18,15 @@ The Application is made up of 7 components .
 # Working of the Project
 
 > The FrontSearchingComponent communicates with the parent component i.e. AppComponent whenever a new username is typed in using a **EventEmitter** .
-> The user details and repositories are fetched using the Github api whenever a new username is passed from the parent compnent . When the user uses pagination to view more repositories , the repos are fetch by passing the page number , maximum number of repos per page values in the api to get desired repos .
+> The user details and repositories are fetched using the Github api whenever a new username is passed from the parent compnent passing username as parameter to the github api . 
 
-```
-      `${this.BASE_URL}/search/repositories?q=${encodedQuery}&page=${page}&per_page=${max}`,
+```${this.BASE_URL}/users/${username}```
 
-```
+> When the user uses pagination to view more repositories , the repos are fetch by passing the page number , maximum number of repos per page values in the api to get > desired repos as shown below .
+
+``` ${this.BASE_URL}/search/repositories?q=${encodedQuery}&page=${page}&per_page=${max}```
+
+
 
 
 
