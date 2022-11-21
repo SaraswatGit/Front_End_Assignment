@@ -17,7 +17,7 @@ The Application is made up of 7 components .
 
 # Working of the Project
 
-> The FrontSearchingComponent communicates with the parent component i.e. AppComponent whenever a new username is typed in using a **EventEmitter** .
+> The FrontSearchingComponent communicates with the parent component i.e. AppComponent whenever a new username is typed in using a **EventEmitter** and is communicated to the PersonDetailsComponent and PersonRepositoriesComponent component .
 > The user details and repositories are fetched using the Github api whenever a new username is passed from the parent compnent passing username as parameter to the github api . 
 
 ```${this.BASE_URL}/users/${username}```
