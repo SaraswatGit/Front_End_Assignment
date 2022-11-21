@@ -7,13 +7,13 @@
 
 The Application is made up of 7 components .
 
-> app-single-repo: This component displays a single repository with its name , description and topics associated with it .
-> AppComponent : The is the top-most component of which all compnents are children .
-> FrontSearchingComponent : This component is responible for taking username as an input from the user.
-> PersonRepositoriesComponent : This components contains all the repositories of an user.
-> PersonDetailsComponent : This component contains all the details of a user .
-> LoadingComponent : A circular loader is diplayed when the user details or the repositories are being fetched .
-> ErrorComponent : Displays on a error message , for eg : "User not found " etc .
+- app-single-repo: This component displays a single repository with its name , description and topics associated with it .
+- AppComponent : The is the top-most component of which all compnents are children .
+- FrontSearchingComponent : This component is responible for taking username as an input from the user.
+- PersonRepositoriesComponent : This components contains all the repositories of an user.
+- PersonDetailsComponent : This component contains all the details of a user .
+- LoadingComponent : A circular loader is diplayed when the user details or the repositories are being fetched .
+- ErrorComponent : Displays on a error message , for eg : "User not found " etc .
 
 # Working of the Project
 
