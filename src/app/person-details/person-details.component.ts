@@ -12,7 +12,7 @@ import { faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons';
 @Component({
   selector: 'app-person-details',
   templateUrl: './person-details.component.html',
-  styleUrls: ['./person-details.component.css']
+  styleUrls: ['./person-details.component.css'],
 })
 export class PersonDetailsComponent implements OnChanges {
   @Input() username!: string;
@@ -57,5 +57,4 @@ export class PersonDetailsComponent implements OnChanges {
   ngOnChanges(): void {
     this.fetchUserInfo();
   }
-
 }
