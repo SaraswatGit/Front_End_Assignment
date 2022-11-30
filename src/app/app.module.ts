@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
-import { ServiceFileService } from './service-file/service-file.service';
 import { HttpClientModule } from '@angular/common/http';
 import { MaterialModule } from './material.module';
 import { AppComponent } from './app.component';
@@ -35,7 +34,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     NgxPaginationModule,
     FontAwesomeModule,
   ],
-  providers: [ServiceFileService],
+  providers: [],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
