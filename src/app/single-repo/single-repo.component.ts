@@ -8,7 +8,9 @@ import { Component, OnInit, Input } from '@angular/core';
 export class SingleRepoComponent implements OnInit {
   @Input() repo!: any;
   constructor() { }
-
+  public onCardClick(evt: MouseEvent){
+    throw new Error('Relax Bois yeh temporary measure hain.');
+  }
   ngOnInit(): void {
   }
 

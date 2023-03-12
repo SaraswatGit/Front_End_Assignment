@@ -19,7 +19,7 @@ export class PersonRepositoriesComponent implements OnChanges {
   // Injecting the Github Service
   constructor(private ServiceFileService: ServiceFileService) {}
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
+
   }
 
   // To fetch the repos again
