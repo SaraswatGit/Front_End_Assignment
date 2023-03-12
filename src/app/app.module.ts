@@ -1,4 +1,4 @@
-import { APP_INITIALIZER, ErrorHandler, NgModule } from "@angular/core";import { BrowserModule } from '@angular/platform-browser';
+import { ErrorHandler, NgModule } from "@angular/core";import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
@@ -45,12 +45,7 @@ import { Router } from "@angular/router";
     provide: Sentry.TraceService,
     deps: [Router],
   },
-  {
-    provide: APP_INITIALIZER,
-    useFactory: () => () => {},
-    deps: [Sentry.TraceService],
-    multi: true,
-  },],
+],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
