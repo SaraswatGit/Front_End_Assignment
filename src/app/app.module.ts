@@ -35,12 +35,7 @@ import { Router } from "@angular/router";
     NgxPaginationModule,
     FontAwesomeModule,
   ],
-  providers: [     {
-    provide: ErrorHandler,
-    useValue: Sentry.createErrorHandler({
-      showDialog: true,
-    }),
-  },
+  providers: [
   {
     provide: Sentry.TraceService,
     deps: [Router],

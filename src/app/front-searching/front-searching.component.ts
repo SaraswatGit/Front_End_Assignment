@@ -18,7 +18,10 @@ export class FrontSearchingComponent implements OnInit {
     username: '',
   });
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    throw new Error('lol try 1233');
+
+  }
 
   onUserSubmit() {
     this.onUserSearch.emit(this.userSeacrhForm.value.username);
