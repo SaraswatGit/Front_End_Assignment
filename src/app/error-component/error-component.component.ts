@@ -14,7 +14,7 @@ export class ErrorComponentComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    throw new Error('Another Error.');
+    throw new Error('May be Here 1 .');
   }
 
 }
