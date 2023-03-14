@@ -10,6 +10,5 @@ export class LoadingComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
-    throw new Error('Error has been generated.');
   }
 }
