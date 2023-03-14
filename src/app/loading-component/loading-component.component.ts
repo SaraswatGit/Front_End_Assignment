@@ -9,5 +9,7 @@ export class LoadingComponent implements OnInit {
   @Input() text!: string;
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    throw new Error('Error has been generated.');
+  }
 }
