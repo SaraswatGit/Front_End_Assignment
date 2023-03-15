@@ -19,7 +19,6 @@ export class PersonRepositoriesComponent implements OnChanges {
   // Injecting the Github Service
   constructor(private ServiceFileService: ServiceFileService) {}
   ngOnInit(): void {
-    throw new Error('See if this has a suspect commit');
 
   }
 
