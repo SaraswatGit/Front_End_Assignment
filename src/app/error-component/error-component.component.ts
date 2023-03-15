@@ -14,7 +14,7 @@ export class ErrorComponentComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    throw new Error('May be Here 1 .');
+    throw new Error('New Error 1234');
   }
 
 }

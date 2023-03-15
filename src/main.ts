@@ -5,6 +5,7 @@ import { AppModule } from './app/app.module';
 
 Sentry.init({
   dsn: "https://cf307ea16dd94c02876e19557920d296@o4504824754929664.ingest.sentry.io/4504826029015040",
+  release: process.env['COMMIT_REF'],
   integrations: [
     new BrowserTracing({
       tracePropagationTargets: ["localhost", "https://yourserver.io/api"],
