@@ -19,7 +19,6 @@ export class FrontSearchingComponent implements OnInit {
   });
 
   ngOnInit(): void {
-    throw new Error('lol try 1233');
 
   }
 
