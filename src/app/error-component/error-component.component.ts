@@ -14,7 +14,7 @@ export class ErrorComponentComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    throw new Error('Errors are good');
+    throw new Error('Errors are ver very good');
   }
 
 }
