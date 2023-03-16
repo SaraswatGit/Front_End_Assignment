@@ -14,7 +14,7 @@ export class ErrorComponentComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    throw new Error('Indued Error 423nfdv3e good error bad error ');
+    throw new Error('Indued Error 423nfdv3e qwerty');
   }
 
 }
