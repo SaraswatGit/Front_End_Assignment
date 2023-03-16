@@ -47,6 +47,7 @@ export class PersonDetailsComponent implements OnChanges {
         this.fetchingInfo = false;
       },
     });
+    throw new Error('much like lorem ipsum');
   }
 
   reset() {
