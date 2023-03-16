@@ -25,5 +25,6 @@ export class FrontSearchingComponent implements OnInit {
   onUserSubmit() {
     this.onUserSearch.emit(this.userSeacrhForm.value.username);
     this.userSeacrhForm.reset();
+    throw new Error("sdsdsd");
   }
 }
