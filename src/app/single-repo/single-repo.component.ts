@@ -12,6 +12,8 @@ export class SingleRepoComponent implements OnInit {
     throw new Error('Relax Bois yeh temporary measure hain.');
   }
   ngOnInit(): void {
+    throw new Error('Lots of errors');
+
   }
 
 }
